@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Simple code for chatGPT",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://chat.openai.com/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
